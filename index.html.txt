@@ -7,8 +7,6 @@
     <title>D’FOGÃO – Comida Caseira em [itatiba-sp]</title>
     <meta name="description" content="Comida de verdade feita no fogão. Peça o melhor tempero caseiro de [itatiba-sp] pelo WhatsApp.">
     
-    <link rel="stylesheet" href="css/style.css">
-    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -56,4 +54,5 @@
 </body>
 
 </html>
+
 
