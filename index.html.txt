@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>D’FOGÃO – Comida Caseira em [Cidade]</title>
-    <meta name="description" content="Comida de verdade feita no fogão. Peça o melhor tempero caseiro de [Cidade] pelo WhatsApp.">
+    <title>D’FOGÃO – Comida Caseira em [itatiba-sp]</title>
+    <meta name="description" content="Comida de verdade feita no fogão. Peça o melhor tempero caseiro de [itatiba-sp] pelo WhatsApp.">
     
     <link rel="stylesheet" href="css/style.css">
     
@@ -15,8 +15,8 @@
 
     <header>
         <h1 class="logo-texto">D'FOGÃO</h1>
-        <p class="hero-text">Comida de verdade, feita no fogão em <strong>[Sua Cidade]</strong>.</p>
-        <a href="https://wa.me/5511999999999" class="btn-whatsapp" target="_blank">🚀 PEDIR PELO WHATSAPP</a>
+        <p class="hero-text">Comida de verdade, feita no fogão em <strong>[itatiba-sp]</strong>.</p>
+        <a href="https://wa.me/55119999999" class="btn-whatsapp" target="_blank">🚀 PEDIR PELO WHATSAPP</a>
     </header>
 
     <main>
@@ -38,14 +38,14 @@
         </section>
 
         <section id="sobre">
-            <h2>Sabor de Casa em [Cidade]</h2>
+            <h2>Sabor de Casa em [itatiba-sp]</h2>
             <p>O D’FOGÃO nasceu com a missão de servir comida simples, bem feita e com sabor de casa.</p>
         </section>
 
         <section id="contato">
             <h2>Onde Estamos</h2>
-            <p>📍 Rua da Gastronomia, 123 - Centro</p>
-            <p>⏰ Seg a Sáb: 11h às 15h</p>
+            <p>📍R. Marcos Dian, 304 - Jardim de Lucca </p>
+            <p>⏰ Seg a Sex: 11h às 14h</p>
             </section>
     </main>
 
@@ -54,4 +54,5 @@
     </footer>
 
 </body>
+
 </html>
