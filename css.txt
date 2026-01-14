@@ -1,0 +1,65 @@
+:root {
+    --vermelho: #A52A2A; 
+    --bege: #F5F5DC;
+    --marrom: #5D4037;
+    --amarelo: #FFC107;
+    --texto: #333;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: var(--bege); 
+    color: var(--texto);
+}
+
+h1, h2 { font-family: 'Playfair Display', serif; color: var(--marrom); }
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.logo-texto { font-size: 3.5rem; border-bottom: 4px solid var(--amarelo); margin-bottom: 15px; }
+
+.btn-whatsapp {
+    background-color: var(--vermelho);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-whatsapp:hover { transform: scale(1.05); }
+
+section { padding: 60px 20px; max-width: 900px; margin: 0 auto; text-align: center; }
+
+.cardapio-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 8px solid var(--vermelho);
+}
+
+.preco { background: var(--amarelo); padding: 5px 10px; border-radius: 5px; font-weight: bold; }
+
+@media (max-width: 600px) {
+    .cardapio-item { flex-direction: column; }
+    .logo-texto { font-size: 2.5rem; }
+}
